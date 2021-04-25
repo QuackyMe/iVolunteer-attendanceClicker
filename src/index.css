@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.05em;
+	list-style: none;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 90%;
+	margin: 0 auto;
+	background: white;
+}
+
+header ul {
+	display: flex;
+}
+
+header ul a {
+	margin: 0 10px;
+	text-decoration: none;
+	color: black;
+}
+
+header ul a:hover {
+	color: #c621d3;
+}
+
+header button {
+	margin-left: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	background: #19acff;
+	color: white;
+	font-weight: 500;
+}
+
+.email {
+	color: #15abff;
+}
+.email:hover {
+	color: #c621d3;
+}
+
+.links {
+	padding: 20px;
+}
+
+.logo {
+	margin-right: auto;
+}
+
+.content {
+	padding: 50px;
+}
+
+.scramble {
+	margin: 0 auto;
+	width: 90%;
+	padding: 30px;
+	text-align: center;
+}
+
+.scramble h4 {
+	font-weight: 400;
+}
+
+.answer-box {
+	margin-top: 60px;
+	border: 3px black solid;
+	padding: 30px;
+}
+
+.word-box {
+	/* border: 2px orange solid; */
+	padding: 30px;
+}
+
+.word-box ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.answer-box ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.word-box ul li,
+.answer-box ul li {
+	border: solid black 1px;
+	margin: 20px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.btn-check {
+	margin-top: 30px;
+	margin-left: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	background: #19acff;
+	color: white;
+	font-weight: 500;
+}
+
+.title {
+	font-weight: 600;
+	padding: 15px;
+	border-radius: 3px;
+	background: #c4c4c475;
+	color: #ff67c2;
+}
+
+.events {
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.events .event-name {
+	margin-top: 30px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #353535;
+}
+
+.events .box-layer {
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.events .event-time {
+	padding: 20px;
+	background: #14abff;
+	font-weight: 400;
+	color: black;
+	margin: 0 5px;
+	font-size: 20px;
+	border-radius: 3px;
+}
+
+.events .event-description {
+	width: 50%;
+	background: #f7e609;
+	padding: 20px;
+	text-align: center;
+	margin: 0 5px;
+	font-size: 20px;
+	border-radius: 3px;
+}
+
+.events .event-organizer {
+	background: #ea41f0ad;
+	margin: 0 5px;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 3px;
+}
+
+.events .event-organizer button {
+	padding: 3px;
+	width: 80%;
+	border-radius: 3px;
+	background: #f8f419;
+	color: black;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.create input {
+	height: 40px;
+	width: 95%;
+}
+
+.create textarea {
+	height: 100px;
+	width: 95%;
+}
