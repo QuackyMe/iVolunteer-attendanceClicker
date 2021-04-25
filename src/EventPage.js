@@ -12,7 +12,7 @@ const EventPage = () => {
 						<li>
 							<div className="event-name">{event.name}</div>
 							<div className="box-layer">
-								<div className="event-time">3:00 pm</div>
+								<div className="event-time">{event.time}</div>
 								<div className="event-description">{event.description}</div>
 								<div className="event-organizer">
 									{event.organizer} <br />

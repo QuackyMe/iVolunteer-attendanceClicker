@@ -1,51 +1,62 @@
 {
-	"events": [
-		{
-			"id": 1,
-			"name": "Help the Rabbits",
-			"description": "we need your help to provide the needs for the rabbit in our ecosystem",
-			"time": "3:00 PM",
-			"organizer": "bugs bunny",
-			"rewardCode": {
-				"correct": "we really love rabbits",
-				"wrong": "bunnies are absolutely amazing and they eat carrots"
-			}
-		},
-		{
-			"id": 2,
-			"name": "Hackathon",
-			"description": "Are you up for the challenge to create ideas and turn it into a reality",
-			"time": "9:00 AM",
-			"organizer": "iVolunteer",
-			"rewardCode": {
-				"correct": "pag programmer malakas",
-				"wrong": "pag developer daw marunong mag ayos ng printer"
-			}
-		},
-		{
-			"name": "Food for a cause",
-			"description": "Help the poor by donating goods",
-			"time": "12:00 PM",
-			"rewardCode": {
-				"correct": "vegetable are nutricious",
-				"wrong": "tomato is a fruit"
-			},
-			"organizer": "Juan Dela Cruz",
-			"id": 3
-		}
-	],
-	"users": [
-		{
-			"name": "James Eric",
-			"pass": "abcdefg",
-			"joined": {
-				"eventID": 1,
-				"lives": 3,
-				"isSolved": false
-			},
-			"email": "jameseric@gmail.com",
-			"exp": 1000,
-			"contactNumber": "0927-372-3928"
-		}
-	]
+  "events": [
+    {
+      "id": 1,
+      "name": "Help the Rabbits",
+      "description": "we need your help to provide the needs for the rabbit in our ecosystem",
+      "time": "3:00 PM",
+      "organizer": "bugs bunny",
+      "rewardCode": {
+        "correct": "we really love rabbits",
+        "wrong": "bunnies are absolutely amazing and they eat carrots"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Hackathon",
+      "description": "Are you up for the challenge to create ideas and turn it into a reality",
+      "time": "9:00 AM",
+      "organizer": "iVolunteer",
+      "rewardCode": {
+        "correct": "pag programmer malakas",
+        "wrong": "pag developer daw marunong mag ayos ng printer"
+      }
+    },
+    {
+      "name": "Food for a cause",
+      "description": "Help the poor by donating goods",
+      "time": "12:00 PM",
+      "rewardCode": {
+        "correct": "vegetables are nutricious",
+        "wrong": "tomato is a fruit"
+      },
+      "organizer": "Juan Dela Cruz",
+      "id": 3
+    },
+    {
+      "name": "The School Microfarm Project ",
+      "description": "The future of food security depends on the anticipated participation of the urban communities especially youth",
+      "time": "12:00 PM",
+      "rewardCode": {
+        "correct": "communities especially youth",
+        "wrong": "without the next generation"
+      },
+      "organizer": "Juan Dela Cruz",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "name": "James Eric",
+      "pass": "abcdefg",
+      "joined": {
+        "eventID": 1,
+        "lives": 3,
+        "isSolved": false
+      },
+      "email": "jameseric@gmail.com",
+      "exp": 1000,
+      "contactNumber": "0927-372-3928"
+    }
+  ]
 }
